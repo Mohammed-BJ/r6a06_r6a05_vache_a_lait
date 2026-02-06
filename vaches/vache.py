@@ -1,8 +1,8 @@
-from abc import ABC, abstractmethod
+
 
 from .exceptions import InvalidVacheException
 
-class Vache(ABC):
+class Vache:
     AGE_MAX = 25
     POIDS_MAX = 1200.0
     PANSE_MAX = 200.0
